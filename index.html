@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savir Patil — Portfolio</title>
+  <meta name="description" content="AI and Data Science student at Purdue University with hands-on experience in machine learning, data engineering, and agentic AI. Passionate about building ">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0a121a; color: #e0f4ff; font-family: 'Inter', sans-serif; line-height: 1.7; }
+    a { color: #0284c7; text-decoration: none; transition: opacity 0.2s; }
+    a:hover { opacity: 0.8; }
+    
+    .layout { display: grid; grid-template-columns: 320px 1fr; min-height: 100vh; }
+    .sidebar { background: #0f1e2e; padding: 3rem 2rem; border-right: 1px solid #0284c733; position: sticky; top: 0; height: 100vh; display: flex; flex-direction: column; justify-content: center; }
+    .main { padding: 4rem 3rem; max-width: 800px; }
+    @media (max-width: 768px) { .layout { grid-template-columns: 1fr; } .sidebar { position: relative; height: auto; } }
+    
+    
+    
+    
+    h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem; background: linear-gradient(135deg, #0284c7, #22d3ee); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    h2 { font-size: 1.4rem; color: #0284c7; margin-bottom: 1.5rem; font-weight: 600; }
+    .subtitle { color: #22d3ee; font-size: 1.1rem; margin-bottom: 1rem; }
+    .bio { color: #e0f4ffcc; margin-bottom: 2rem; max-width: 600px; }
+    .links { display: flex; gap: 1rem; margin-bottom: 3rem; flex-wrap: wrap; }
+    .links a { padding: 0.5rem 1.2rem; border: 1px solid #0284c744; border-radius: 6px; font-size: 0.9rem; transition: all 0.2s; }
+    .links a:hover { background: #0284c715; border-color: #0284c7; }
+    .section { margin-bottom: 3rem; }
+    .skill-tag { display: inline-block; padding: 0.3rem 0.8rem; background: #0284c715; color: #0284c7; border: 1px solid #0284c733; border-radius: 4px; margin: 0.25rem; font-size: 0.85rem; }
+    .project-card { background: #0f1e2e; border: 1px solid #0284c722; border-radius: 8px; padding: 1.5rem; margin-bottom: 1rem; transition: all 0.2s; }
+    .project-card:hover { border-color: #0284c766; transform: translateY(-2px); }
+    .project-card h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
+    .project-card p { color: #e0f4ff99; font-size: 0.95rem; margin-bottom: 0.75rem; }
+    .tech-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    .tech-tag { font-size: 0.75rem; padding: 0.2rem 0.5rem; background: #22d3ee15; color: #22d3ee; border-radius: 3px; }
+    .cert-badge { display: inline-block; padding: 0.4rem 1rem; background: #22d3ee15; color: #22d3ee; border: 1px solid #22d3ee33; border-radius: 6px; margin: 0.25rem; font-weight: 600; font-size: 0.9rem; }
+    .certs { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    
+    footer { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #0284c722; color: #e0f4ff66; font-size: 0.85rem;  }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <h1>Savir Patil</h1>
+      <p class="subtitle">AI + Data Science + Software Developer</p>
+      <p class="bio">AI and Data Science student at Purdue University with hands-on experience in machine learning, data engineering, and agentic AI. Passionate about building impactful tools that use data to solve real-world problems.</p>
+      <div class="links">
+        <a href="mailto:patilsavir@gmail.com">Email</a>
+        <a href="https://github.com/savirpatil" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/savir-patil" target="_blank">LinkedIn</a>
+      </div>
+    </aside>
+    <main class="main">
+
+    <section class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">R</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">JavaScript/TypeScript</span>
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">Scikit-learn</span>
+            <span class="skill-tag">LangChain</span>
+            <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">Next.js</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Supabase</span>
+            <span class="skill-tag">ChromaDB</span>
+            <span class="skill-tag">RAG Pipelines</span>
+            <span class="skill-tag">Agentic AI</span>
+            <span class="skill-tag">Anomaly DetectionHugging Face</span>
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">REST APIs</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Projects</h2>
+      <div class="projects">
+          <div class="project-card">
+            <h3><a href="" target="_blank">BloomPoint →</a></h3>
+            <p>Real-time global water pollution monitoring tool powered by satellite data</p>
+            <div class="tech-tags"><span class="tech-tag">Python</span><span class="tech-tag">FastAPI</span><span class="tech-tag">LangChain</span><span class="tech-tag">ChromaDB</span><span class="tech-tag">Gemini</span><span class="tech-tag">Next.js</span><span class="tech-tag">Mapbox</span></div>
+          </div>
+
+          <div class="project-card">
+            <h3><a href="" target="_blank">Mesa Agent-Based Models →</a></h3>
+            <p>Open-source agent-based simulations modeling misinformation spread and ecosystem collapse using LLM-driven agents</p>
+            <div class="tech-tags"><span class="tech-tag">Python</span><span class="tech-tag">Mesa</span><span class="tech-tag">NetworkX</span><span class="tech-tag">MesaLLM</span><span class="tech-tag">Ollama</span><span class="tech-tag">Solara</span></div>
+          </div>
+
+          <div class="project-card">
+            <h3><a href="" target="_blank">Die Casting Defect Classifier →</a></h3>
+            <p>Classifier that detects manufacturing defects in high-pressure die casting to reduce scrap and costs</p>
+            <div class="tech-tags"><span class="tech-tag">Python</span><span class="tech-tag">Scikit-learn</span><span class="tech-tag">Pandas</span><span class="tech-tag">Matplotlib</span></div>
+          </div></div>
+    </section>
+
+    
+
+    
+
+    <footer>
+      <p>© 2026 Savir Patil. Built with PortfolioForge.</p>
+    </footer>
+    </main>
+  </div>
+</body>
+</html>
